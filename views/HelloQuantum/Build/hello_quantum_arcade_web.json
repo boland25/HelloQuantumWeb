@@ -1,0 +1,15 @@
+{
+"companyName": "IBM-Research",
+"productName": "Hello Quantum",
+"productVersion": "1.0.1",
+"dataUrl": "hello_quantum_arcade_web.data.unityweb",
+"wasmCodeUrl": "hello_quantum_arcade_web.wasm.code.unityweb",
+"wasmFrameworkUrl": "hello_quantum_arcade_web.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#FFFFFF",
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.2f1"
+}

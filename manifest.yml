@@ -1,0 +1,5 @@
+---
+applications:
+ - name: HelloQuantum-HTML5
+   random-route: true
+   memory: 256M
