@@ -11,7 +11,7 @@
                 "assessmentList": [{"stateName": "zi", "value": 1.0}, {"stateName": "iz", "value": 1.0}, {"stateName": "zz", "value": 1.0}],
                 "requiredGates": ["xi", "ix"],
                 "optimalScore": 1,
-                "timeToSolve": 5,
+                "timeToSolve": 10,
                 "digDeeper": "Quantum Computers encode information in quantum bits, called qubits.  We brought 2 of them into the game: right qubit and left qubit. You need lots of information to describe 2 qubits. We do it with 8 circles. For each qubit we need 2. One will always be white or black, which means the other would need to be random (outline)."
                 },
                 { "id": 2,
@@ -21,7 +21,7 @@
                 "assessmentList": [{"stateName": "zi", "value": 1.0}, {"stateName": "iz", "value": 1.0}, {"stateName": "zz", "value": 1.0}],
                 "requiredGates": ["xi", "ix"],
                 "optimalScore": 1,
-                "timeToSolve": 5,
+                "timeToSolve": 10,
                 "digDeeper": "The bottom 4 circles are the outputs for our 2 qubits. In each puzzle of this level, you are resetting them both to the 'off' state.  When that circle is black, the other one is random (outline)"
                 },
                 { "id": 3,
@@ -31,7 +31,7 @@
                 "assessmentList": [{"stateName": "zi", "value": 1.0}, {"stateName": "iz", "value": 1.0}, {"stateName": "zz", "value": 1.0}],
                 "requiredGates": ["xi", "ix"],
                 "optimalScore": 2,
-                "timeToSolve": 5,
+                "timeToSolve": 8,
                 "digDeeper": "The computers we use today are known as classical computers. They are composed of regular bits. A regular bit, only needs 1 circle to show its state.  it will always be either 'on'  (white) or 'off' (black) . Two circles are needed to show a quantum bit (qubits) because there are more possible measurements."
                 },
                 { "id": 4,
@@ -41,7 +41,7 @@
                 "assessmentList": [{"stateName": "zi", "value": 1.0}, {"stateName": "iz", "value": 1.0}, {"stateName": "zz", "value": 1.0}],
                 "requiredGates": ["xi", "ix", "ih", "hi"],
                 "optimalScore": 1,
-                "timeToSolve": 5,
+                "timeToSolve": 10,
                 "digDeeper": "When one of the bottom circles is random (outline), the output is uncertain. But the certainty is still somewhere in the grid. You just need to bring it back.",
                 "unlockGate" : {
                     "names": ["hi", "ih"],
@@ -55,7 +55,7 @@
                 "assessmentList": [{"stateName": "zi", "value": 1.0}, {"stateName": "iz", "value": 1.0}, {"stateName": "zz", "value": 1.0}],
                 "requiredGates" : ["xi", "ix", "hi", "ih"],
                 "optimalScore": 2,
-                "timeToSolve": 6,
+                "timeToSolve": 8,
                 "digDeeper": "Sometimes you get a black circle, other times you get a white circle as an output of the qubit state. This apparent randomness on the outputs is called a 'quantum superposition' which is one of the key concepts in quantum computing. Some people like to get quite philosophical about them, but quantum programmers don't need to."
                 },
                 { "id": 6,
@@ -75,7 +75,7 @@
                 "assessmentList" :  [{"stateName": "zi", "value": 1.0}, {"stateName": "iz", "value": 1.0}, {"stateName": "zz", "value": 1.0}],
                 "requiredGates": ["zi", "iz", "hi", "ih"],
                 "optimalScore": 3,
-                "timeToSolve": 6,
+                "timeToSolve": 8,
                 "unlockGate": {
                     "names": ["zi", "iz"],
                     "info": "The X gate is not working in these puzzles. Fortunately you can use Z instead. These gates work just like X, but on different rows."
@@ -200,7 +200,7 @@
                 "assessmentList": [{"stateName": "zi", "value": 1.0}, {"stateName": "iz", "value": 1.0}, {"stateName": "zz", "value": 1.0}],
                 "requiredGates": ["cz", "hi", "ih", "xi"],
                 "optimalScore": 4,
-                "timeToSolve": 9,
+                "timeToSolve": 30,
                 "digDeeper": "The Z and  left X are unavailable so utilize the CZ to move the pieces around the board"
                 },
                 {  "id": 20,
@@ -210,7 +210,7 @@
                 "assessmentList": [{"stateName": "zi", "value": 1.0}, {"stateName": "iz", "value": 1.0}, {"stateName": "zz", "value": 1.0}],
                 "requiredGates": ["cz", "hi", "ih", "ix"],
                 "optimalScore": 4,
-                "timeToSolve": 9
+                "timeToSolve": 28
                 },
                 {  "id": 21,
                 "levelNumber": 4,
@@ -219,7 +219,7 @@
                 "assessmentList": [{"stateName": "zi", "value": 1.0}, {"stateName": "iz", "value": 1.0}, {"stateName": "zz", "value": 1.0}],
                 "requiredGates": ["cz", "hi", "ih", "xi", "zi"],
                 "optimalScore": 5,
-                "timeToSolve": 12
+                "timeToSolve": 20
                 },
                 {  "id": 22,
                 "levelNumber": 4,
@@ -228,7 +228,7 @@
                 "assessmentList": [{"stateName": "zi", "value": 1.0}, {"stateName": "iz", "value": 1.0}, {"stateName": "zz", "value": 1.0}],
                 "requiredGates": ["cz", "hi", "ih", "ix", "iz"],
                 "optimalScore": 5,
-                "timeToSolve": 12
+                "timeToSolve": 20
                 },
                 {  "id": 23,
                 "levelNumber": 4,
@@ -269,7 +269,7 @@
                 "assessmentList": [{"stateName": "zi", "value": 1.0}, {"stateName": "iz", "value": -1.0}, {"stateName": "zz", "value": -1.0}],
                 "requiredGates": ["cz", "hi", "ih"],
                 "optimalScore": 6,
-                "timeToSolve": 15
+                "timeToSolve": 30
                 },
                 {  "id": 28,
                 "levelNumber": 4,
