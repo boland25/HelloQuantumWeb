@@ -1,6 +1,6 @@
 # Hello Quantum Arcade Edition
 
-This repo contains all of the html5 web files to run Hello Quanutm Arcade Edition on the web.
+This repo contains all of the html5 web files to run Hello Quanutm Arcade Edition on the web.  This is meant to run on a large screen in portrait mode 2160 tall X 1215 wide.    But i beleieve it will run on something smaller as long as it keeps the ratio.
 
 
 I have included the basic node server files for being able to run this on a server.  This is neccessary because it will not run unless its served.
